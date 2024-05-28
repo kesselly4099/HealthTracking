@@ -14,6 +14,13 @@
 		B416F8E02C01C9E20071106E /* Health_TrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B416F8DF2C01C9E20071106E /* Health_TrackingTests.swift */; };
 		B416F8EA2C01C9E20071106E /* Health_TrackingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B416F8E92C01C9E20071106E /* Health_TrackingUITests.swift */; };
 		B416F8EC2C01C9E20071106E /* Health_TrackingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B416F8EB2C01C9E20071106E /* Health_TrackingUITestsLaunchTests.swift */; };
+		B416F8F92C01CA4C0071106E /* WelcomScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B416F8F82C01CA4C0071106E /* WelcomScreen.swift */; };
+		B416F8FB2C02017C0071106E /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B416F8FA2C02017C0071106E /* HomeScreen.swift */; };
+		B416F9032C0C8E570071106E /* PostureMonitoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B416F9022C0C8E570071106E /* PostureMonitoringView.swift */; };
+		B416F9052C0D9A8A0071106E /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B416F9042C0D9A8A0071106E /* GraphView.swift */; };
+		B416F90A2C210A010071106E /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B416F9092C210A010071106E /* OnboardingScreen.swift */; };
+		B416F9102C21241F0071106E /* Hwelcom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B416F90F2C21241F0071106E /* Hwelcom.swift */; };
+		B416F9142C21250A0071106E /* OnboardingScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = B416F9132C21250A0071106E /* OnboardingScreens.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		B416F8E52C01C9E20071106E /* Health TrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Health TrackingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B416F8E92C01C9E20071106E /* Health_TrackingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health_TrackingUITests.swift; sourceTree = "<group>"; };
 		B416F8EB2C01C9E20071106E /* Health_TrackingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health_TrackingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B416F8F82C01CA4C0071106E /* WelcomScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomScreen.swift; sourceTree = "<group>"; };
+		B416F8FA2C02017C0071106E /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		B416F9022C0C8E570071106E /* PostureMonitoringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostureMonitoringView.swift; sourceTree = "<group>"; };
+		B416F9042C0D9A8A0071106E /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		B416F9092C210A010071106E /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
+		B416F90F2C21241F0071106E /* Hwelcom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hwelcom.swift; sourceTree = "<group>"; };
+		B416F9132C21250A0071106E /* OnboardingScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreens.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,11 @@
 		B416F8C22C01C9E00071106E = {
 			isa = PBXGroup;
 			children = (
+				B416F9062C2109B00071106E /* Hydration */,
+				B416F9022C0C8E570071106E /* PostureMonitoringView.swift */,
+				B416F9042C0D9A8A0071106E /* GraphView.swift */,
+				B416F8FA2C02017C0071106E /* HomeScreen.swift */,
+				B416F8F82C01CA4C0071106E /* WelcomScreen.swift */,
 				B416F8CD2C01C9E00071106E /* Health Tracking */,
 				B416F8DE2C01C9E20071106E /* Health TrackingTests */,
 				B416F8E82C01C9E20071106E /* Health TrackingUITests */,
@@ -125,6 +144,16 @@
 				B416F8EB2C01C9E20071106E /* Health_TrackingUITestsLaunchTests.swift */,
 			);
 			path = "Health TrackingUITests";
+			sourceTree = "<group>";
+		};
+		B416F9062C2109B00071106E /* Hydration */ = {
+			isa = PBXGroup;
+			children = (
+				B416F9092C210A010071106E /* OnboardingScreen.swift */,
+				B416F90F2C21241F0071106E /* Hwelcom.swift */,
+				B416F9132C21250A0071106E /* OnboardingScreens.swift */,
+			);
+			path = Hydration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +286,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B416F8FB2C02017C0071106E /* HomeScreen.swift in Sources */,
+				B416F9142C21250A0071106E /* OnboardingScreens.swift in Sources */,
+				B416F9032C0C8E570071106E /* PostureMonitoringView.swift in Sources */,
+				B416F8F92C01CA4C0071106E /* WelcomScreen.swift in Sources */,
 				B416F8D12C01C9E00071106E /* ContentView.swift in Sources */,
+				B416F90A2C210A010071106E /* OnboardingScreen.swift in Sources */,
 				B416F8CF2C01C9E00071106E /* Health_TrackingApp.swift in Sources */,
+				B416F9052C0D9A8A0071106E /* GraphView.swift in Sources */,
+				B416F9102C21241F0071106E /* Hwelcom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
