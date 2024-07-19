@@ -1,6 +1,14 @@
+//
+//  OnboardingContainerView.swift
+//  Health Tracking
+//
+//  Created by Kesselly Kamara on 7/5/24.
+//
+
+
 import SwiftUI
 
-struct OnboardingScreens: View {
+struct OnboardingContainerView: View {
     @State private var selectedTab = 0
     @State private var isOnboardingComplete = false
     @StateObject private var user = User(context: CoreDataManager.shared.viewContext)
@@ -13,27 +21,27 @@ struct OnboardingScreens: View {
             } else {
                 TabView(selection: $selectedTab) {
                     OnboardingScreen(
-                        title: "Welcome to Health Tracking Reminder",
+                        title: "Welcome to AG Reminder",
                         description: "Your Personal Hydration Assistant",
-                        imageName: "no2",
+                        imageName: "onboarding1",
                         selectedTab: $selectedTab,
                         isOnboardingComplete: $isOnboardingComplete
                     )
                     .tag(0)
                     
                     OnboardingScreen(
-                        title: "Customize Your Hydration Plan",
-                        description: "Tailor Your Water Intake to Your Lifestyle",
-                        imageName: "no31",
+                        title: "Track Your Intake",
+                        description: "Keep a record of your daily water intake",
+                        imageName: "onboarding2",
                         selectedTab: $selectedTab,
                         isOnboardingComplete: $isOnboardingComplete
                     )
                     .tag(1)
                     
                     OnboardingScreen(
-                        title: "Never Miss a Sip",
-                        description: "Let AquaReminder Keep You Refreshed Throughout the Day",
-                        imageName: "no41",
+                        title: "Stay Hydrated",
+                        description: "Get reminders to drink water",
+                        imageName: "onboarding3",
                         selectedTab: $selectedTab,
                         isOnboardingComplete: $isOnboardingComplete
                     )
@@ -46,9 +54,9 @@ struct OnboardingScreens: View {
     }
 }
 
-struct OnboardingScreens_Previews: PreviewProvider {
+struct OnboardingContainerView_Previews: PreviewProvider {
     static var previews: some View {
-        OnboardingScreens()
+        OnboardingContainerView()
             .environment(\.managedObjectContext, CoreDataManager.shared.viewContext)
     }
 }

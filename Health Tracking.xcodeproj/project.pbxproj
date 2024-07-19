@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B416F8CF2C01C9E00071106E /* Health_TrackingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B416F8CE2C01C9E00071106E /* Health_TrackingApp.swift */; };
 		B416F8D12C01C9E00071106E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B416F8D02C01C9E00071106E /* ContentView.swift */; };
 		B416F8D32C01C9E20071106E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B416F8D22C01C9E20071106E /* Assets.xcassets */; };
 		B416F8D62C01C9E20071106E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B416F8D52C01C9E20071106E /* Preview Assets.xcassets */; };
@@ -18,9 +17,28 @@
 		B416F8FB2C02017C0071106E /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B416F8FA2C02017C0071106E /* HomeScreen.swift */; };
 		B416F9032C0C8E570071106E /* PostureMonitoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B416F9022C0C8E570071106E /* PostureMonitoringView.swift */; };
 		B416F9052C0D9A8A0071106E /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B416F9042C0D9A8A0071106E /* GraphView.swift */; };
-		B416F90A2C210A010071106E /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B416F9092C210A010071106E /* OnboardingScreen.swift */; };
 		B416F9102C21241F0071106E /* Hwelcom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B416F90F2C21241F0071106E /* Hwelcom.swift */; };
 		B416F9142C21250A0071106E /* OnboardingScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = B416F9132C21250A0071106E /* OnboardingScreens.swift */; };
+		B45183792C36EDA3009AEBCE /* DrinkRecord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183742C36EDA3009AEBCE /* DrinkRecord+CoreDataProperties.swift */; };
+		B45183802C36EEC6009AEBCE /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B451837E2C36EEC6009AEBCE /* User+CoreDataProperties.swift */; };
+		B45183922C378AC3009AEBCE /* Settings+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183912C378AC3009AEBCE /* Settings+CoreDataProperties.swift */; };
+		B45183942C379019009AEBCE /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183932C379019009AEBCE /* OnboardingScreen.swift */; };
+		B45183982C3795DB009AEBCE /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183952C3795DB009AEBCE /* User+CoreDataClass.swift */; };
+		B45183992C3795DB009AEBCE /* DrinkRecord+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183962C3795DB009AEBCE /* DrinkRecord+CoreDataClass.swift */; };
+		B451839A2C3795DB009AEBCE /* Settings+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183972C3795DB009AEBCE /* Settings+CoreDataClass.swift */; };
+		B451839C2C37A144009AEBCE /* HealthTrackingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B451839B2C37A144009AEBCE /* HealthTrackingApp.swift */; };
+		B451839E2C37B529009AEBCE /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B451839D2C37B529009AEBCE /* ProfileScreen.swift */; };
+		B45183A22C37D6E6009AEBCE /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183A12C37D6E6009AEBCE /* OnboardingContainerView.swift */; };
+		B4A3230D2C304028000812BB /* SetGoalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A3230C2C304028000812BB /* SetGoalScreen.swift */; };
+		B4A3230F2C30417D000812BB /* HomeScreenWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A3230E2C30417D000812BB /* HomeScreenWater.swift */; };
+		B4A323112C304285000812BB /* StatisticsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A323102C304285000812BB /* StatisticsScreen.swift */; };
+		B4A323132C30431C000812BB /* ReminderSettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A323122C30431C000812BB /* ReminderSettingsScreen.swift */; };
+		B4A323172C3043D7000812BB /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A323162C3043D7000812BB /* MainTabView.swift */; };
+		B4A3231B2C304566000812BB /* GraphViewWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A3231A2C304566000812BB /* GraphViewWater.swift */; };
+		B4A3231D2C36234E000812BB /* EditProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A3231C2C36234E000812BB /* EditProfileScreen.swift */; };
+		B4A3232E2C36588F000812BB /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A3232D2C36588F000812BB /* CoreDataManager.swift */; };
+		B4A323322C36B51F000812BB /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A323312C36B51F000812BB /* PersistenceController.swift */; };
+		B4A323392C36C282000812BB /* HealthTrackingModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4A323372C36C282000812BB /* HealthTrackingModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +60,6 @@
 
 /* Begin PBXFileReference section */
 		B416F8CB2C01C9E00071106E /* Health Tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health Tracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B416F8CE2C01C9E00071106E /* Health_TrackingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health_TrackingApp.swift; sourceTree = "<group>"; };
 		B416F8D02C01C9E00071106E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B416F8D22C01C9E20071106E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B416F8D52C01C9E20071106E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -55,9 +72,28 @@
 		B416F8FA2C02017C0071106E /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		B416F9022C0C8E570071106E /* PostureMonitoringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostureMonitoringView.swift; sourceTree = "<group>"; };
 		B416F9042C0D9A8A0071106E /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
-		B416F9092C210A010071106E /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 		B416F90F2C21241F0071106E /* Hwelcom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hwelcom.swift; sourceTree = "<group>"; };
 		B416F9132C21250A0071106E /* OnboardingScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreens.swift; sourceTree = "<group>"; };
+		B45183742C36EDA3009AEBCE /* DrinkRecord+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DrinkRecord+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B451837E2C36EEC6009AEBCE /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B45183912C378AC3009AEBCE /* Settings+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B45183932C379019009AEBCE /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
+		B45183952C3795DB009AEBCE /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B45183962C3795DB009AEBCE /* DrinkRecord+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DrinkRecord+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B45183972C3795DB009AEBCE /* Settings+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B451839B2C37A144009AEBCE /* HealthTrackingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTrackingApp.swift; sourceTree = "<group>"; };
+		B451839D2C37B529009AEBCE /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		B45183A12C37D6E6009AEBCE /* OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
+		B4A3230C2C304028000812BB /* SetGoalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGoalScreen.swift; sourceTree = "<group>"; };
+		B4A3230E2C30417D000812BB /* HomeScreenWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenWater.swift; sourceTree = "<group>"; };
+		B4A323102C304285000812BB /* StatisticsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsScreen.swift; sourceTree = "<group>"; };
+		B4A323122C30431C000812BB /* ReminderSettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSettingsScreen.swift; sourceTree = "<group>"; };
+		B4A323162C3043D7000812BB /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		B4A3231A2C304566000812BB /* GraphViewWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewWater.swift; sourceTree = "<group>"; };
+		B4A3231C2C36234E000812BB /* EditProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileScreen.swift; sourceTree = "<group>"; };
+		B4A3232D2C36588F000812BB /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		B4A323312C36B51F000812BB /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		B4A323382C36C282000812BB /* HydrationReminderModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HydrationReminderModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +124,16 @@
 		B416F8C22C01C9E00071106E = {
 			isa = PBXGroup;
 			children = (
+				B45183A12C37D6E6009AEBCE /* OnboardingContainerView.swift */,
+				B45183952C3795DB009AEBCE /* User+CoreDataClass.swift */,
+				B451839B2C37A144009AEBCE /* HealthTrackingApp.swift */,
+				B451837E2C36EEC6009AEBCE /* User+CoreDataProperties.swift */,
+				B45183962C3795DB009AEBCE /* DrinkRecord+CoreDataClass.swift */,
+				B45183742C36EDA3009AEBCE /* DrinkRecord+CoreDataProperties.swift */,
+				B45183972C3795DB009AEBCE /* Settings+CoreDataClass.swift */,
+				B45183912C378AC3009AEBCE /* Settings+CoreDataProperties.swift */,
+				B4A3232D2C36588F000812BB /* CoreDataManager.swift */,
+				B4A323102C304285000812BB /* StatisticsScreen.swift */,
 				B416F9062C2109B00071106E /* Hydration */,
 				B416F9022C0C8E570071106E /* PostureMonitoringView.swift */,
 				B416F9042C0D9A8A0071106E /* GraphView.swift */,
@@ -113,7 +159,7 @@
 		B416F8CD2C01C9E00071106E /* Health Tracking */ = {
 			isa = PBXGroup;
 			children = (
-				B416F8CE2C01C9E00071106E /* Health_TrackingApp.swift */,
+				B4A323372C36C282000812BB /* HealthTrackingModel.xcdatamodeld */,
 				B416F8D02C01C9E00071106E /* ContentView.swift */,
 				B416F8D22C01C9E20071106E /* Assets.xcassets */,
 				B416F8D42C01C9E20071106E /* Preview Content */,
@@ -149,9 +195,17 @@
 		B416F9062C2109B00071106E /* Hydration */ = {
 			isa = PBXGroup;
 			children = (
-				B416F9092C210A010071106E /* OnboardingScreen.swift */,
 				B416F90F2C21241F0071106E /* Hwelcom.swift */,
+				B45183932C379019009AEBCE /* OnboardingScreen.swift */,
 				B416F9132C21250A0071106E /* OnboardingScreens.swift */,
+				B4A3230C2C304028000812BB /* SetGoalScreen.swift */,
+				B451839D2C37B529009AEBCE /* ProfileScreen.swift */,
+				B4A3230E2C30417D000812BB /* HomeScreenWater.swift */,
+				B4A323122C30431C000812BB /* ReminderSettingsScreen.swift */,
+				B4A3231C2C36234E000812BB /* EditProfileScreen.swift */,
+				B4A323162C3043D7000812BB /* MainTabView.swift */,
+				B4A3231A2C304566000812BB /* GraphViewWater.swift */,
+				B4A323312C36B51F000812BB /* PersistenceController.swift */,
 			);
 			path = Hydration;
 			sourceTree = "<group>";
@@ -287,14 +341,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				B416F8FB2C02017C0071106E /* HomeScreen.swift in Sources */,
+				B45183802C36EEC6009AEBCE /* User+CoreDataProperties.swift in Sources */,
 				B416F9142C21250A0071106E /* OnboardingScreens.swift in Sources */,
 				B416F9032C0C8E570071106E /* PostureMonitoringView.swift in Sources */,
+				B45183922C378AC3009AEBCE /* Settings+CoreDataProperties.swift in Sources */,
+				B4A323132C30431C000812BB /* ReminderSettingsScreen.swift in Sources */,
+				B4A3231D2C36234E000812BB /* EditProfileScreen.swift in Sources */,
+				B4A3230F2C30417D000812BB /* HomeScreenWater.swift in Sources */,
+				B4A323322C36B51F000812BB /* PersistenceController.swift in Sources */,
+				B4A3230D2C304028000812BB /* SetGoalScreen.swift in Sources */,
 				B416F8F92C01CA4C0071106E /* WelcomScreen.swift in Sources */,
+				B4A323392C36C282000812BB /* HealthTrackingModel.xcdatamodeld in Sources */,
 				B416F8D12C01C9E00071106E /* ContentView.swift in Sources */,
-				B416F90A2C210A010071106E /* OnboardingScreen.swift in Sources */,
-				B416F8CF2C01C9E00071106E /* Health_TrackingApp.swift in Sources */,
+				B4A323112C304285000812BB /* StatisticsScreen.swift in Sources */,
+				B45183982C3795DB009AEBCE /* User+CoreDataClass.swift in Sources */,
+				B45183992C3795DB009AEBCE /* DrinkRecord+CoreDataClass.swift in Sources */,
+				B451839A2C3795DB009AEBCE /* Settings+CoreDataClass.swift in Sources */,
+				B451839E2C37B529009AEBCE /* ProfileScreen.swift in Sources */,
 				B416F9052C0D9A8A0071106E /* GraphView.swift in Sources */,
 				B416F9102C21241F0071106E /* Hwelcom.swift in Sources */,
+				B451839C2C37A144009AEBCE /* HealthTrackingApp.swift in Sources */,
+				B45183792C36EDA3009AEBCE /* DrinkRecord+CoreDataProperties.swift in Sources */,
+				B45183942C379019009AEBCE /* OnboardingScreen.swift in Sources */,
+				B4A323172C3043D7000812BB /* MainTabView.swift in Sources */,
+				B4A3232E2C36588F000812BB /* CoreDataManager.swift in Sources */,
+				B4A3231B2C304566000812BB /* GraphViewWater.swift in Sources */,
+				B45183A22C37D6E6009AEBCE /* OnboardingContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,6 +696,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B4A323372C36C282000812BB /* HealthTrackingModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B4A323382C36C282000812BB /* HydrationReminderModel.xcdatamodel */,
+			);
+			currentVersion = B4A323382C36C282000812BB /* HydrationReminderModel.xcdatamodel */;
+			name = HealthTrackingModel.xcdatamodeld;
+			path = "Health Tracking/HealthTrackingModel.xcdatamodeld";
+			sourceTree = SOURCE_ROOT;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B416F8C32C01C9E00071106E /* Project object */;
 }

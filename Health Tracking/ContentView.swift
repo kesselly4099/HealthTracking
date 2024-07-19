@@ -1,18 +1,13 @@
-//
-//  ContentView.swift
-//  Health Tracking
-//
-//  Created by Kesselly Kamara on 5/25/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-       HWelcomeScreen()
+        HomePageView()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }

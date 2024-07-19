@@ -5,13 +5,15 @@ struct OnboardingScreen: View {
     var description: String
     var imageName: String
     @Binding var selectedTab: Int
-    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-    
+    @Binding var isOnboardingComplete: Bool
+
     var body: some View {
         VStack {
             HStack {
                 Button(action: {
-                    self.presentationMode.wrappedValue.dismiss()
+                    if selectedTab > 0 {
+                        selectedTab -= 1
+                    }
                 }) {
                     Image(systemName: "chevron.left")
                         .foregroundColor(.blue)
@@ -24,7 +26,6 @@ struct OnboardingScreen: View {
             
             Spacer()
             Image(imageName)
-                
                 .resizable()
                 .scaledToFit()
                 .frame(height: 300)
@@ -34,18 +35,21 @@ struct OnboardingScreen: View {
                 .fontWeight(.bold)
                 .padding(.top)
                 .fontDesign(.serif)
-                .multilineTextAlignment(.center) // Center-align the title text
+                .multilineTextAlignment(.center)
             Text(description)
                 .font(.body)
                 .foregroundColor(.gray)
-                .multilineTextAlignment(.center) // Center-align the description text
+                .multilineTextAlignment(.center)
                 .padding()
             Spacer()
             Button(action: {
                 withAnimation {
-                                    selectedTab += 1
-                                }
-                // Navigation action for the next screen if needed
+                    if selectedTab < 2 { // Assuming there are 3 onboarding screens
+                        selectedTab += 1
+                    } else {
+                        isOnboardingComplete = true
+                    }
+                }
             }) {
                 Text("Next")
                     .font(.headline)
@@ -58,17 +62,18 @@ struct OnboardingScreen: View {
             Spacer()
         }
         .padding()
-        .navigationBarBackButtonHidden(true) // Hide the default back button
+        .navigationBarBackButtonHidden(true)
     }
 }
 
 struct OnboardingScreen_Previews: PreviewProvider {
     static var previews: some View {
         OnboardingScreen(
-                   title: "Welcome to AG Reminder",
-                   description: "Your Personal Hydration Assistant",
-                   imageName: "onboarding1",
-                   selectedTab: .constant(0)
-               )
+            title: "Welcome to AG Reminder",
+            description: "Your Personal Hydration Assistant",
+            imageName: "onboarding1",
+            selectedTab: .constant(0),
+            isOnboardingComplete: .constant(false)
+        )
     }
 }

@@ -131,6 +131,8 @@ struct PostureMonitoringView: View {
                     postureColor = .blue
                 }
                 
+                 // this is the 
+                
                 // Continue monitoring if still active
                 if isMonitoring {
                     startMotionUpdates()
