@@ -1,6 +1,5 @@
-Project Overview: Health Tracking App
+#Project Overview: Health Tracking App
 
-Introduction
 
 The Health Tracking App is an innovative iOS application designed to enhance users' overall well-being by providing
 comprehensive features such as hydration tracking, posture monitoring, emergency alerts, activity graph visualization, and engagement through challenges. 
