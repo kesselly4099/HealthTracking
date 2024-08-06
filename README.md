@@ -52,3 +52,5 @@ Scalability: The app's architecture is designed for scalability, allowing easy a
 Real-World Impact
 Health Improvement: By promoting hydration, good posture, and regular activity, the app makes a tangible difference in users' health and well-being.
 Emergency Preparedness: The emergency alerts feature ensures users are prepared and can quickly respond to critical situations.
+
+see the Doc https://docs.google.com/presentation/d/1axPJx1OkN8_jqgbrthl8XUP5YFs1215o/edit#slide=id.p4
