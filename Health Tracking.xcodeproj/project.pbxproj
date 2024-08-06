@@ -29,6 +29,22 @@
 		B451839C2C37A144009AEBCE /* HealthTrackingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B451839B2C37A144009AEBCE /* HealthTrackingApp.swift */; };
 		B451839E2C37B529009AEBCE /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B451839D2C37B529009AEBCE /* ProfileScreen.swift */; };
 		B45183A22C37D6E6009AEBCE /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183A12C37D6E6009AEBCE /* OnboardingContainerView.swift */; };
+		B45183DC2C4A6E3E009AEBCE /* ActivityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183DB2C4A6E3E009AEBCE /* ActivityData.swift */; };
+		B45183DE2C4A7539009AEBCE /* MetricCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183DD2C4A7539009AEBCE /* MetricCardView.swift */; };
+		B45183E02C4A757E009AEBCE /* ActivityGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183DF2C4A757E009AEBCE /* ActivityGraphView.swift */; };
+		B45183E22C4A7645009AEBCE /* ChallengesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183E12C4A7645009AEBCE /* ChallengesView.swift */; };
+		B45183E42C4A7667009AEBCE /* CustomWorkoutPlansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183E32C4A7667009AEBCE /* CustomWorkoutPlansView.swift */; };
+		B45183E62C4A76AA009AEBCE /* HydrationRemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183E52C4A76AA009AEBCE /* HydrationRemindersView.swift */; };
+		B45183E82C4A76CC009AEBCE /* EmergencyAlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183E72C4A76CC009AEBCE /* EmergencyAlertsView.swift */; };
+		B45183EC2C4A7741009AEBCE /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183EB2C4A7741009AEBCE /* IconButton.swift */; };
+		B45183EE2C4A7873009AEBCE /* postureMonitoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183ED2C4A7873009AEBCE /* postureMonitoringView.swift */; };
+		B45183F22C4ACADA009AEBCE /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183F12C4ACADA009AEBCE /* StepsView.swift */; };
+		B45183F42C4C1697009AEBCE /* CaloriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183F32C4C1697009AEBCE /* CaloriesView.swift */; };
+		B45183F62C4C16E2009AEBCE /* DistanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183F52C4C16E2009AEBCE /* DistanceView.swift */; };
+		B45183F82C4C1738009AEBCE /* HeartRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183F72C4C1738009AEBCE /* HeartRateView.swift */; };
+		B45183FA2C4C17A3009AEBCE /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45183F92C4C17A3009AEBCE /* SleepView.swift */; };
+		B46F3D3D2C5E197E009432B2 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46F3D3C2C5E197E009432B2 /* TipsView.swift */; };
+		B46F3D412C5E7E23009432B2 /* CustomizableChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46F3D402C5E7E23009432B2 /* CustomizableChartView.swift */; };
 		B4A3230D2C304028000812BB /* SetGoalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A3230C2C304028000812BB /* SetGoalScreen.swift */; };
 		B4A3230F2C30417D000812BB /* HomeScreenWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A3230E2C30417D000812BB /* HomeScreenWater.swift */; };
 		B4A323112C304285000812BB /* StatisticsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A323102C304285000812BB /* StatisticsScreen.swift */; };
@@ -84,6 +100,24 @@
 		B451839B2C37A144009AEBCE /* HealthTrackingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTrackingApp.swift; sourceTree = "<group>"; };
 		B451839D2C37B529009AEBCE /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
 		B45183A12C37D6E6009AEBCE /* OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
+		B45183DB2C4A6E3E009AEBCE /* ActivityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityData.swift; sourceTree = "<group>"; };
+		B45183DD2C4A7539009AEBCE /* MetricCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricCardView.swift; sourceTree = "<group>"; };
+		B45183DF2C4A757E009AEBCE /* ActivityGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityGraphView.swift; sourceTree = "<group>"; };
+		B45183E12C4A7645009AEBCE /* ChallengesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesView.swift; sourceTree = "<group>"; };
+		B45183E32C4A7667009AEBCE /* CustomWorkoutPlansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWorkoutPlansView.swift; sourceTree = "<group>"; };
+		B45183E52C4A76AA009AEBCE /* HydrationRemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationRemindersView.swift; sourceTree = "<group>"; };
+		B45183E72C4A76CC009AEBCE /* EmergencyAlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyAlertsView.swift; sourceTree = "<group>"; };
+		B45183EB2C4A7741009AEBCE /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		B45183ED2C4A7873009AEBCE /* postureMonitoringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postureMonitoringView.swift; sourceTree = "<group>"; };
+		B45183EF2C4A7F7B009AEBCE /* Health-Tracking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Health-Tracking-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B45183F02C4A8376009AEBCE /* Health Tracking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Health Tracking.entitlements"; sourceTree = "<group>"; };
+		B45183F12C4ACADA009AEBCE /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
+		B45183F32C4C1697009AEBCE /* CaloriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesView.swift; sourceTree = "<group>"; };
+		B45183F52C4C16E2009AEBCE /* DistanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceView.swift; sourceTree = "<group>"; };
+		B45183F72C4C1738009AEBCE /* HeartRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateView.swift; sourceTree = "<group>"; };
+		B45183F92C4C17A3009AEBCE /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
+		B46F3D3C2C5E197E009432B2 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		B46F3D402C5E7E23009432B2 /* CustomizableChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizableChartView.swift; sourceTree = "<group>"; };
 		B4A3230C2C304028000812BB /* SetGoalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGoalScreen.swift; sourceTree = "<group>"; };
 		B4A3230E2C30417D000812BB /* HomeScreenWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenWater.swift; sourceTree = "<group>"; };
 		B4A323102C304285000812BB /* StatisticsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsScreen.swift; sourceTree = "<group>"; };
@@ -128,6 +162,7 @@
 				B45183952C3795DB009AEBCE /* User+CoreDataClass.swift */,
 				B451839B2C37A144009AEBCE /* HealthTrackingApp.swift */,
 				B451837E2C36EEC6009AEBCE /* User+CoreDataProperties.swift */,
+				B45183DB2C4A6E3E009AEBCE /* ActivityData.swift */,
 				B45183962C3795DB009AEBCE /* DrinkRecord+CoreDataClass.swift */,
 				B45183742C36EDA3009AEBCE /* DrinkRecord+CoreDataProperties.swift */,
 				B45183972C3795DB009AEBCE /* Settings+CoreDataClass.swift */,
@@ -137,7 +172,12 @@
 				B416F9062C2109B00071106E /* Hydration */,
 				B416F9022C0C8E570071106E /* PostureMonitoringView.swift */,
 				B416F9042C0D9A8A0071106E /* GraphView.swift */,
+				B46F3D402C5E7E23009432B2 /* CustomizableChartView.swift */,
 				B416F8FA2C02017C0071106E /* HomeScreen.swift */,
+				B45183F12C4ACADA009AEBCE /* StepsView.swift */,
+				B46F3D3C2C5E197E009432B2 /* TipsView.swift */,
+				B45183DF2C4A757E009AEBCE /* ActivityGraphView.swift */,
+				B45183DD2C4A7539009AEBCE /* MetricCardView.swift */,
 				B416F8F82C01CA4C0071106E /* WelcomScreen.swift */,
 				B416F8CD2C01C9E00071106E /* Health Tracking */,
 				B416F8DE2C01C9E20071106E /* Health TrackingTests */,
@@ -159,6 +199,8 @@
 		B416F8CD2C01C9E00071106E /* Health Tracking */ = {
 			isa = PBXGroup;
 			children = (
+				B45183F02C4A8376009AEBCE /* Health Tracking.entitlements */,
+				B45183EF2C4A7F7B009AEBCE /* Health-Tracking-Info.plist */,
 				B4A323372C36C282000812BB /* HealthTrackingModel.xcdatamodeld */,
 				B416F8D02C01C9E00071106E /* ContentView.swift */,
 				B416F8D22C01C9E20071106E /* Assets.xcassets */,
@@ -199,13 +241,23 @@
 				B45183932C379019009AEBCE /* OnboardingScreen.swift */,
 				B416F9132C21250A0071106E /* OnboardingScreens.swift */,
 				B4A3230C2C304028000812BB /* SetGoalScreen.swift */,
+				B45183E12C4A7645009AEBCE /* ChallengesView.swift */,
+				B45183E32C4A7667009AEBCE /* CustomWorkoutPlansView.swift */,
+				B45183E72C4A76CC009AEBCE /* EmergencyAlertsView.swift */,
+				B45183E52C4A76AA009AEBCE /* HydrationRemindersView.swift */,
 				B451839D2C37B529009AEBCE /* ProfileScreen.swift */,
 				B4A3230E2C30417D000812BB /* HomeScreenWater.swift */,
 				B4A323122C30431C000812BB /* ReminderSettingsScreen.swift */,
 				B4A3231C2C36234E000812BB /* EditProfileScreen.swift */,
 				B4A323162C3043D7000812BB /* MainTabView.swift */,
+				B45183F92C4C17A3009AEBCE /* SleepView.swift */,
+				B45183F72C4C1738009AEBCE /* HeartRateView.swift */,
 				B4A3231A2C304566000812BB /* GraphViewWater.swift */,
+				B45183EB2C4A7741009AEBCE /* IconButton.swift */,
 				B4A323312C36B51F000812BB /* PersistenceController.swift */,
+				B45183F52C4C16E2009AEBCE /* DistanceView.swift */,
+				B45183ED2C4A7873009AEBCE /* postureMonitoringView.swift */,
+				B45183F32C4C1697009AEBCE /* CaloriesView.swift */,
 			);
 			path = Hydration;
 			sourceTree = "<group>";
@@ -340,9 +392,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B45183EC2C4A7741009AEBCE /* IconButton.swift in Sources */,
+				B45183E02C4A757E009AEBCE /* ActivityGraphView.swift in Sources */,
+				B45183F22C4ACADA009AEBCE /* StepsView.swift in Sources */,
+				B46F3D412C5E7E23009432B2 /* CustomizableChartView.swift in Sources */,
 				B416F8FB2C02017C0071106E /* HomeScreen.swift in Sources */,
 				B45183802C36EEC6009AEBCE /* User+CoreDataProperties.swift in Sources */,
 				B416F9142C21250A0071106E /* OnboardingScreens.swift in Sources */,
+				B45183EE2C4A7873009AEBCE /* postureMonitoringView.swift in Sources */,
 				B416F9032C0C8E570071106E /* PostureMonitoringView.swift in Sources */,
 				B45183922C378AC3009AEBCE /* Settings+CoreDataProperties.swift in Sources */,
 				B4A323132C30431C000812BB /* ReminderSettingsScreen.swift in Sources */,
@@ -350,20 +407,31 @@
 				B4A3230F2C30417D000812BB /* HomeScreenWater.swift in Sources */,
 				B4A323322C36B51F000812BB /* PersistenceController.swift in Sources */,
 				B4A3230D2C304028000812BB /* SetGoalScreen.swift in Sources */,
+				B45183F42C4C1697009AEBCE /* CaloriesView.swift in Sources */,
+				B45183FA2C4C17A3009AEBCE /* SleepView.swift in Sources */,
 				B416F8F92C01CA4C0071106E /* WelcomScreen.swift in Sources */,
 				B4A323392C36C282000812BB /* HealthTrackingModel.xcdatamodeld in Sources */,
+				B46F3D3D2C5E197E009432B2 /* TipsView.swift in Sources */,
 				B416F8D12C01C9E00071106E /* ContentView.swift in Sources */,
 				B4A323112C304285000812BB /* StatisticsScreen.swift in Sources */,
 				B45183982C3795DB009AEBCE /* User+CoreDataClass.swift in Sources */,
 				B45183992C3795DB009AEBCE /* DrinkRecord+CoreDataClass.swift in Sources */,
+				B45183DC2C4A6E3E009AEBCE /* ActivityData.swift in Sources */,
 				B451839A2C3795DB009AEBCE /* Settings+CoreDataClass.swift in Sources */,
 				B451839E2C37B529009AEBCE /* ProfileScreen.swift in Sources */,
 				B416F9052C0D9A8A0071106E /* GraphView.swift in Sources */,
+				B45183F82C4C1738009AEBCE /* HeartRateView.swift in Sources */,
 				B416F9102C21241F0071106E /* Hwelcom.swift in Sources */,
 				B451839C2C37A144009AEBCE /* HealthTrackingApp.swift in Sources */,
+				B45183E42C4A7667009AEBCE /* CustomWorkoutPlansView.swift in Sources */,
+				B45183F62C4C16E2009AEBCE /* DistanceView.swift in Sources */,
+				B45183DE2C4A7539009AEBCE /* MetricCardView.swift in Sources */,
+				B45183E82C4A76CC009AEBCE /* EmergencyAlertsView.swift in Sources */,
 				B45183792C36EDA3009AEBCE /* DrinkRecord+CoreDataProperties.swift in Sources */,
+				B45183E62C4A76AA009AEBCE /* HydrationRemindersView.swift in Sources */,
 				B45183942C379019009AEBCE /* OnboardingScreen.swift in Sources */,
 				B4A323172C3043D7000812BB /* MainTabView.swift in Sources */,
+				B45183E22C4A7645009AEBCE /* ChallengesView.swift in Sources */,
 				B4A3232E2C36588F000812BB /* CoreDataManager.swift in Sources */,
 				B4A3231B2C304566000812BB /* GraphViewWater.swift in Sources */,
 				B45183A22C37D6E6009AEBCE /* OnboardingContainerView.swift in Sources */,
@@ -527,12 +595,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Health Tracking/Health Tracking.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Health Tracking/Preview Content\"";
 				DEVELOPMENT_TEAM = 732D2W6R42;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Health-Tracking-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -556,12 +626,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Health Tracking/Health Tracking.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Health Tracking/Preview Content\"";
 				DEVELOPMENT_TEAM = 732D2W6R42;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Health-Tracking-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

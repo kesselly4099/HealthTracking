@@ -1,7 +1,11 @@
+
+
 import SwiftUI
 import Charts
 
 struct HomePageView: View {
+    @StateObject private var activityData = ActivityData()
+
     var body: some View {
         NavigationView {
             ScrollView {
@@ -11,63 +15,88 @@ struct HomePageView: View {
                             .font(.largeTitle)
                             .fontWeight(.bold)
                             .fontDesign(.serif)
+                            .foregroundColor(.primary)
                         Spacer()
-                        Image(.image)
+                        Image(systemName: "person.circle.fill")
                             .resizable()
                             .frame(width: 40, height: 40)
+                            .foregroundColor(.accentColor)
                             .clipShape(Circle())
                     }
                     .padding(.horizontal)
-                           // Stack strock
+                    
                     VStack(spacing: 20) {
-                        HStack(spacing: 10) {
-                            MetricCardView(value: "100", color: .cyan, width: 250, iconName: "Step", iconDecription: "figure.walk")
-                            MetricCardView(value: "120", color: Color.blue, width: 100, iconName: "Cal", iconDecription: "flame")
-                        }
-                        HStack(spacing: 10) {
-                            MetricCardView(title: "Kilometer", value: "2 km", color: Color.gray, width: 110,iconName: "Dist",iconDecription: "arrow.triangle.swap")
-                            MetricCardView(title: "Average", value: "56", color: Color.yellow, width: 110,iconName: "Bmp",iconDecription: "heart.fill")
+                        HStack(spacing: 5) {
+                            NavigationLink(destination: StepsView(activityData: activityData).navigationBarBackButtonHidden(true)){
+                                MetricCardView(value: "\(activityData.steps)", color: .cyan, width: 250, iconName: "Steps", iconDescription: "figure.walk")
+                                
+                            }
                             
-                            MetricCardView(title: "Sleep", value: "8 hrs", color: Color.pink, width: 110,iconName: "Sleep",iconDecription: "powersleep")
+                            NavigationLink(destination: CaloriesView(activityData: activityData)) {
+                                MetricCardView(value: "\(activityData.calories)", color: Color.blue, width: 100, iconName: "Calories", iconDescription: "flame")
+                            }
+                        }
+                        HStack(spacing:7) {
+                            NavigationLink(destination: DistanceView(activityData: activityData)) {
+                                MetricCardView(title: "Kilometer", value: "\(activityData.distance) km", color: Color.gray, width: 113, iconName: "Distance", iconDescription: "arrow.triangle.swap")
+                            }
+                            NavigationLink(destination: HeartRateView(activityData: activityData)) {
+                                MetricCardView(title: "Average BPM", value: "\(activityData.heartRate)", color: Color.yellow, width: 113, iconName: "Heart Rate", iconDescription: "heart.fill")
+                            }
+                            NavigationLink(destination: SleepView(activityData: activityData)) {
+                                MetricCardView(title: "Sleep", value: "\(activityData.sleep) hrs", color: Color.pink, width: 113, iconName: "Sleep", iconDescription: "powersleep")
+                            }
                         }
                     }
                     .padding(.horizontal)
 
                     VStack(alignment: .leading) {
                         Text("Train with Apple Watch")
+                            .fontDesign(.serif)
                             .font(.headline)
+                            .fontWeight(.semibold)
+                            .foregroundColor(.primary)
                             .padding(.horizontal)
-
-                        Image(.WELCOM_1) // Update with actual image name
+                        
+                        Image("WELCOM1") // Update with actual image name
                             .resizable()
                             .scaledToFit()
-                            .cornerRadius(10)
+                            .cornerRadius(15)
+                            .shadow(radius: 10)
                             .padding(.horizontal)
 
                         // Adding Graph
                         Text("Activity Graph")
                             .font(.headline)
                             .fontDesign(.serif)
+                            .fontWeight(.semibold)
+                            .foregroundColor(.primary)
                             .padding(.horizontal)
-
-                        ActivityGraphView()
-                            .frame(height: 200)
-                            .padding(.horizontal)
+                        
+                        ActivityGraphView(steps: activityData.weeklySteps)
+                        
+                            
+                            //.padding(.horizontal)
+                            .background(Color(.systemGray6))
+                            .cornerRadius(5)
+                            .shadow(radius: 10)
                     }
 
                     VStack(alignment: .leading) {
                         Text("Challenges")
                             .font(.headline)
+                            .fontWeight(.semibold)
+                            .foregroundColor(.primary)
                             .padding(.horizontal)
-
+                        
                         ChallengesView()
                             .padding(.horizontal)
                     }
-
+                    
                     HStack {
                         NavigationLink(destination: CustomWorkoutPlansView()) {
                             IconButton(imageName: "figure.walk", color: .yellow)
-                        }.navigationBarBackButtonHidden(false)
+                        }
                         NavigationLink(destination: HWelcomeScreen()) {
                             IconButton(imageName: "drop.fill", color: .blue)
                         }
@@ -84,146 +113,8 @@ struct HomePageView: View {
             }
             .navigationBarHidden(true)
         }
-    }
-}
-// posting
-struct MetricCardView: View {
-    var title: String?
-    var value: String
-    var color: Color
-    var width: CGFloat
-    var iconName: String?
-    var iconDecription: String?
-
-    var body: some View {
-        VStack {
-            if let iconName = iconName, let iconDecription = iconDecription {
-                Label(iconName, systemImage: iconDecription).bold().font(.system(size: 15))
-                
-                
-            }
-            Text(value)
-                .font(.largeTitle)
-                .fontWeight(.bold)
-            
-            if let title = title {
-                Text(title)
-                    .font(.headline)
-            }
-        }
-        .frame(width: width, height: 100)
-        .background(color.opacity(0.2))
-        .cornerRadius(10)
-    }
-}
-
-struct ChallengesView: View {
-    var body: some View {
-        VStack(spacing: 10) {
-            ChallengeCardView(title: "Jogging", daysLeft: "4 Days Left", participants: "1,372 Participants")
-            ChallengeCardView(title: "Swimming", daysLeft: "12 Days Left", participants: "764 Participants")
-            ChallengeCardView(title: "Squats", daysLeft: "4 Days Left", participants: "1,372 Participants")
-        }
-    }
-}
-
-struct ChallengeCardView: View {
-    var title: String
-    var daysLeft: String
-    var participants: String
-
-    var body: some View {
-        VStack(alignment: .leading) {
-            Text(title)
-                .font(.headline)
-            HStack {
-                Text(daysLeft)
-                Spacer()
-                Text(participants)
-            }
-            .font(.subheadline)
-        }
-        .padding()
-        .background(Color.blue.opacity(0.1))
-        .cornerRadius(10)
-    }
-}
-
-struct IconButton: View {
-    var imageName: String
-    var color: Color
-
-    var body: some View {
-        Image(systemName: imageName)
-            .font(.title)
-            .frame(width: 40, height: 40)
-            .padding()
-            .background(color.opacity(0.2))
-            .cornerRadius(5)
-    }
-}
-
-struct CustomWorkoutPlansView: View {
-    var body: some View {
-        Text("Custom Workout Plans")
-    }
-}
-
-struct HydrationRemindersView: View {
-    var body: some View {
-        Text("Hydration Reminders")
-    }
-}
-
-struct EmergencyAlertsView: View {
-    var body: some View {
-        Text("Emergency Alerts")
-    }
-}
-
-struct postureMonitoringView: View {
-    var body: some View {
-        Text("Posture Monitorin")
-    }
-}
-
-// Define your graph view
-struct ActivityGraphView: View {
-    var body: some View {
-        Chart {
-            BarMark(
-                x: .value("Day", "Mon"),
-                y: .value("Steps", 652)
-            )
-            BarMark(
-                x: .value("Day", "Tue"),
-                y: .value("Steps", 723)
-            )
-            BarMark(
-                x: .value("Day", "Wed"),
-                y: .value("Steps", 812)
-            )
-            BarMark(
-                x: .value("Day", "Thu"),
-                y: .value("Steps", 659)
-            )
-            BarMark(
-                x: .value("Day", "Fri"),
-                y: .value("Steps", 900)
-            )
-            BarMark(
-                x: .value("Day", "Sat"),
-                y: .value("Steps", 1050)
-            )
-            BarMark(
-                x: .value("Day", "Sun"),
-                y: .value("Steps", 700)
-            )
-        }
-        .chartPlotStyle { plotArea in
-            plotArea
-                .background(Color.gray.opacity(0.1))
-                .cornerRadius(10)
+        .onAppear {
+            activityData.requestAuthorization()
         }
     }
 }
